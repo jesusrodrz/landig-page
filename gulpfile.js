@@ -14,7 +14,7 @@ const pugOptions = {
 };
 
 gulp.task('styles', () => {
-  gulp.src('./src/scss/*.scss')
+  gulp.src('./src/sass/*.scss')
     .pipe(plumber())  
     .pipe(sass(sassOptions))
     .pipe(autoprefixer({version:['> 1%, last 2 versions, Firefox ESR, Opera 12.1']}))
@@ -29,7 +29,6 @@ gulp.task('pug', () => {
 });
 
 gulp.task('default', () => {
-  // gulp.watch(['dev/pug/**/*.pug','dev/sass/**/*.scss'], ['pug', 'styles'])
-  watch('./src/scss/**/*.scss', () => gulp.start('styles'));
+  watch('./src/sass/**/*.scss', () => gulp.start('styles'));
   watch('./src/pug/**/*.pug', () => gulp.start('pug'));
 });

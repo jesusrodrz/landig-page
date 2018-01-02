@@ -10,3 +10,21 @@ rgb(255, 42, 104) 100%
 texto negro rgb(47, 47, 47)
 
 texto rosado rgb(224, 108, 117)
+
+
+
+
+.flaticon-pinterest-logotype-circle
+Author: Linh Pham
+ 
+.flaticon-instagram-social-network-logo-of-photo-camera
+Author: Freepik
+ 
+.flaticon-twitter-logo-button
+Author: Bogdan Rosu
+ 
+.flaticon-facebook-logo-button
+Author: Elegant Themes
+ 
+.flaticon-favorite-heart-button
+Author: Google
