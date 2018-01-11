@@ -174,12 +174,12 @@ summary {
 
 /*
   	Flaticon icon font: Flaticon
-  	Creation date: 02/01/2018 20:17
+  	Creation date: 10/01/2018 03:19
   	*/
 @font-face {
   font-family: "Flaticon";
-  src: url("./../fonts/Flaticon.eot");
-  src: url("./../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("./../fonts/Flaticon.woff") format("woff"), url("./../fonts/Flaticon.ttf") format("truetype"), url("./../fonts/Flaticon.svg#Flaticon") format("svg");
+  src: url("/fonts/Flaticon.eot");
+  src: url("/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("/fonts/Flaticon.woff") format("woff"), url("/fonts/Flaticon.ttf") format("truetype"), url("/fonts/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -187,7 +187,7 @@ summary {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("./../fonts/Flaticon.svg#Flaticon") format("svg");
+    src: url("/fonts/Flaticon.svg#Flaticon") format("svg");
   }
 }
 
@@ -198,34 +198,42 @@ summary {
   font-style: normal;
 }
 
-.flaticon-online-shopping-cart:before {
+.flaticon-right-chevron:before {
   content: "\f100";
 }
 
-.flaticon-shopping-cart:before {
+.flaticon-online-shopping-cart:before {
   content: "\f101";
 }
 
-.flaticon-social-instagram-circle:before {
+.flaticon-shopping-cart:before {
   content: "\f102";
 }
 
-.flaticon-pinterest-logotype-circle:before {
+.flaticon-social-instagram-circle:before {
   content: "\f103";
 }
 
-.flaticon-instagram-social-network-logo-of-photo-camera:before {
+.flaticon-pinterest-logotype-circle:before {
   content: "\f104";
 }
 
-.flaticon-twitter-logo-button:before {
+.flaticon-instagram-social-network-logo-of-photo-camera:before {
   content: "\f105";
 }
 
-.flaticon-facebook-logo-button:before {
+.flaticon-twitter-logo-button:before {
   content: "\f106";
 }
 
-.flaticon-favorite-heart-button:before {
+.flaticon-facebook-logo-button:before {
   content: "\f107";
+}
+
+.flaticon-favorite-heart-button:before {
+  content: "\f108";
+}
+
+body {
+  background-image: url("/fonts/amenities-b.JPG");
 }
