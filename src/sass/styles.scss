@@ -1,9 +1,22 @@
+// Functions
+@import 'base/functions.scss';
+
+// normalize
 @import 'base/normalize.scss';
+
+// Icon Fonts
 @import 'base/_flaticon2.scss';
 
-body{
-  background-image: url('/fonts/amenities-b.JPG')
-}
+// Base styles
+@import 'base/base.scss';
+
+//  Configurations and varibles, font sizes, colors...
+@import 'base/config.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:400,800');
+
+
+
 
 
 

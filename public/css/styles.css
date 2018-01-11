@@ -1,4 +1,5 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:400,800");
 button, hr, input {
   overflow: visible;
 }
@@ -234,6 +235,11 @@ summary {
   content: "\f108";
 }
 
-body {
-  background-image: url("/fonts/amenities-b.JPG");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }

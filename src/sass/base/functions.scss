@@ -1,0 +1,13 @@
+@function em($el,$de:16px){
+  @return ($el / $de) * 1em;
+}
+@function rem($el){
+  @return ($el / 16px) * 1rem;
+}
+
+@function color($ele){
+  @return map-get($colorPallete, $ele);
+}
+@function font($ele){
+  @return map-get($fonts, $ele);
+}

@@ -1,0 +1,27 @@
+$colorPallete: (
+  orange: rgb(255, 94, 58),
+  pink:rgb(255, 42, 104),
+  black:rgb(47, 47, 47),
+  pinkText:rgb(224, 108, 117),
+  orangeText:#f97352,
+  orangeSpan:#ef5142,
+  blackS: #282c34,
+  gray: #ededed,
+  white: rgb(242, 242, 242),
+  Plbg:#e06c75,
+  footerBg:#3d4045,
+  subFooterBg:#43474d,
+  footerC:#808080,
+  followUs:#e4e4e4,
+  footerLight:#ebebeb
+);
+
+$fonts:(
+  lato:unquote("'Lato', sans-serif"),
+  open:unquote("'Open Sans', sans-serif")
+);
+
+
+// $fSLarge: em(38px);
+// $fSMedium: em(23px);
+// $fontSize: em(18px);
